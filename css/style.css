@@ -1,0 +1,33 @@
+textarea {
+    -webkit-transition: border, 100ms;
+    transition: border, 100ms;
+    font-size: 1em;
+    font-family: 'Open Sans', helvetica, sans-serif;
+    line-height: 1.5em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: .5em 1em;
+    border: none;
+    background: #f0f0f0;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    resize: none;
+  }
+  textarea:focus {
+    border-left: 0.5em solid rgb(50, 100, 238);
+  }
+  textarea:focus {
+    color: darkslategray;
+  }
+  textarea:focus {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    background: url('images/bg-stripes.png');
+  }
+  
